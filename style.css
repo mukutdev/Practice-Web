@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+:root{
+    --heading:44px;
+    --paragraph: 20px;
+    --btn-color:#e61f1f;
+    --heading-color:rgb(14, 14, 14);
+    --paragraph-color:#292727;
+    --border-radius:6px;
+    --margin:60px;
+    --padding: 30px;
+}
