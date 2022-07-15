@@ -26,13 +26,14 @@
 
 }
 .btn{
-    background-color: var(--btn-color);
+    background-image:linear-gradient(320deg,#f27121,#e94057,#8a2387);
     color: var(--white);
     padding: 10px 30px;
     border-radius: var(--border-radius);
     transition: var(--transition);
     font-size: var(--paragraph);
     border: none;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: #333;
@@ -73,7 +74,7 @@
 .social-links i{
     font-size: var(--paragraph);
     margin-right: 10px;
-    background-color: var(--btn-color);
+    background-image:linear-gradient(320deg,#f27121,#e94057,#8a2387);
     color: var(--white);
     border-radius: 50px;
     padding: 10px;
@@ -187,7 +188,7 @@ background: linear-gradient(90deg, rgba(12,12,13,0.8743872549019608) 14%, rgba(2
     width: 45%;
     margin: 20px auto;
     text-align: left;
-    background-color: var(--btn-color);
+    background-image:linear-gradient(320deg,#f27121,#e94057,#8a2387);
     justify-content: space-between;
     padding: 40px;
     border-radius: var(--border-radius);
@@ -242,4 +243,138 @@ background: linear-gradient(90deg, rgba(12,12,13,0.8743872549019608) 14%, rgba(2
     font-size: 16px;
     margin: 25px 0;
     line-height: 28px;
+}
+
+.contact{
+    background-image:linear-gradient(320deg,#f27121,#e94057,#8a2387);
+    padding: 80px 0;
+
+}
+.contact-form {
+    width: 60%;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 0 auto;
+    padding: 70px 40px;
+}
+.contact-form h2{
+    text-align: center;
+    color:var(--white);
+    font-size: 36px;
+}
+.contact-form > p{
+    color: var(--white);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 20px 0;
+}
+.contact-us{
+    margin: 20px 0;
+}
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 15px;
+}
+.input-fl{
+    width: 48%;
+    padding: 12px 15px;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    font-size: 14px;
+    border-radius: 50px;
+}
+input::placeholder{
+    color: var(--white);
+}
+.select-container{
+    margin: 25px 0;
+}
+.select-container p{
+    color: var(--white);
+    font-size: 20px;
+    margin: 15px 0;
+}
+input[type=radio]{
+    display: none;
+}
+.input-option{
+    margin: 22px 0;
+}
+.input-option label{
+    position: relative;
+   border: 2px solid var(--white);
+   border-radius: var(--border-radius);
+    padding: 7px 45px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.input-option label::before{
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 3px solid var(--white);
+    margin-right: 14px;
+    left: 10px;
+    top: 6px;
+}
+label.option-2{
+    margin: 0 15px;
+}
+input[type="radio"]:checked + label{
+    background-image:linear-gradient(320deg,#f27121,#e94057,#8a2387);
+    color: var(--white);
+    border: 3px;
+    border-radius:var(--border-radius) ;
+    border-image:linear-gradient(320deg,#f27121,#e94057,#8a2387);
+}
+input[type="radio"]:checked + label::before{
+    height: 15px;
+    width: 15px;
+    background-color: #e94057;
+    border: 3px solid var(--white);
+}
+.textarea-col {
+    margin: 20px 0;
+    width: 100%;
+    height: 120px;
+    background: transparent;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+}
+textarea::placeholder{
+    color: var(--white);
+    font-size: 14px;
+}
+.btn-reset {
+    background-image: linear-gradient(201deg,#8a2387,#e94057 );
+    margin: 0 20px;
+}
+.footer-area{
+    padding: 70px;
+    background-image:linear-gradient(320deg,#f27121,#e94057,#8a2387);
+    text-align: center;
+    color: var(--white);
+}
+.footer-area a{
+    color: var(--white);
+    text-decoration: underline;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
 }
